@@ -6,7 +6,7 @@ reg Cin;
 wire [3:0] S;
 wire Cout;
 
-four_bit_RCA_RCS uut (
+four_bit_RCA_RCS u0(
     .A(A),
     .B(B),
     .Cin(Cin),
