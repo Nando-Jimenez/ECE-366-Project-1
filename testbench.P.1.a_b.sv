@@ -3,7 +3,7 @@ module one_bit_full_adder_tb;
 reg A, B, Cin;
 wire S, Cout;
 
-one_bit_full_adder uut (
+one_bit_full_adder u0(
     .A(A),
     .B(B),
     .Cin(Cin),
