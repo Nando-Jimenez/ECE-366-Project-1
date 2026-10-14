@@ -146,4 +146,3 @@ module PPA(A, B, Cin, S, Cout);
     assign Cout = g[15] | (p[15] & C[15]);
 
 endmodule
-
